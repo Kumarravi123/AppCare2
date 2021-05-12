@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+ <ImageView
+     android:layout_width="100dp"
+     android:layout_height="50dp"
+     android:id="@+id/image_view"
+     android:layout_marginTop="20dp"
+     android:layout_gravity="center"
+     android:backgroundTint="@color/purple_200"
+    android:src="@drawable/ic_baseline_wallpaper_24"
+     >
+ </ImageView>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter Name"
+        android:singleLine="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColorHint="@color/purple_200"
+        android:id="@+id/edit_name"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter DeptName"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColorHint="@color/purple_200"
+        android:id="@+id/edit_dept"
+        >
+    </EditText>
+
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/btn_submit"
+        android:background="@color/teal_200"
+        android:layout_gravity="center"
+        >
+
+    </Button>
+
+
+</LinearLayout>
